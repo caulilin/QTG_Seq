@@ -60,11 +60,11 @@ while read -r tchr
 do  
 	echo $tchr;
 	grep -P "$tchr\t" $1_$3 >$1_$3_$tchr; 
-	perl QTG_parser20180423.pl $1_$3_$tchr $3 $4 res_$tchr.txt
+	perl QTG_parser.pl $1_$3_$tchr $3 $4 res_$tchr.txt
 done <chrname.txt
 
 #extract the statistics and order them by coordinates
-perl QTG_summarizer20180616.pl chrname.txt $5 allBinres.csv
+perl QTG_summarizer.pl chrname.txt $5 allBinres.csv
 
 #summarize and extract the fine-mapped region of QTG by R
 module load R
@@ -72,7 +72,7 @@ R CMD BATCH QTG_Seq.R
 # Check the output
 cat QTG_Seq.Rout
 
-perl QTG_Miner20180617.pl QTG_Seq_R_summaryfile.txt QTG_region.txt
+perl QTG_Miner.pl QTG_Seq_R_summaryfile.txt QTG_region.txt
 
 rm chrname.txt
 rm QTG_Seq_R_summaryfile.txt
