@@ -28,7 +28,7 @@ Need to install Perl Statistics module, bwa in your local environment correctly 
 
 3, Usage
 
-usage:./QTG_Seq.sh [VCF] [GFF] [Cov Threshold] [Win Size] <EuclideanDist>
+usage:./QTG_Seq.sh [VCF] [GFF] [Cov Threshold] [Win Size] \<EuclideanDist\>
 
 QTG-Seq provides several different statistics for analysis as follows:
 
