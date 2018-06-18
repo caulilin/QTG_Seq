@@ -31,7 +31,11 @@ Need to install Perl Statistics module, bwa in your local environment correctly 
 usage:./QTG_Seq.sh [VCF] [GFF] [Cov Threshold] [Win Size] <EuclideanDist>
 
 QTG-Seq provides several different statistics for analysis as follows:
+
 	EuclideanDist (default) - Euclidean Distance
+	
 	SNPindex - Delta SNPindex
+	
 	Pvalue - Delta P(Chi-Sqrt)
+	
 	ED4 
