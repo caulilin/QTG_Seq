@@ -1,3 +1,5 @@
+#This is a copy of R package of fANCOVA, whose author is Xiao-Feng Wang
+
 ## Wild Bootstrap
 wild.boot <- function(x, nboot=1){
     if (!is.numeric(x)) stop("argument 'x1' must be numeric")  
