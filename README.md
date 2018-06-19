@@ -74,6 +74,7 @@ samtools index bsa_H_cleaned_fixed_group_DEDUP.bam
 Similar to high pool
 </I>
 
+
 <B>#genomic variant calling</B>
 
 <i>java -Xmx64g -jar $EBROOTGATK/GenomeAnalysisTK.jar -T HaplotypeCaller -R Referencegenome.fa -nct 8 -I bsa_H_cleaned_fixed_group_DEDUP.bam -I bsa_L_cleaned_fixed_group_DEDUP.bam -o bsa_H_L_snps_indels.vcf</i>
