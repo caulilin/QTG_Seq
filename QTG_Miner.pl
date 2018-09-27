@@ -1,6 +1,4 @@
 #!/usr/bin/perl -w
-#author: Lin Li
-#date: 2018-06-16
 #functions: QTG_summarizer
 #input files: VCF file
 #output files: Statistical file
