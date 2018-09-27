@@ -1,5 +1,4 @@
 #!/usr/bin/perl -w
-#author: Lin Li
 #date: 2017-04-04
 #functions: QTG-Seq parser
 #input files: VCF file
