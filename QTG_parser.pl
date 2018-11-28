@@ -1,4 +1,5 @@
 #!/usr/bin/perl -w
+#author: Lin Li
 #date: 2017-04-04
 #functions: QTG-Seq parser
 #input files: VCF file
@@ -229,7 +230,7 @@ sub main(){
 					}
 				}
 				#print length(@LAfreqarr),"\t",$tnum,"\n";
-				if(@LAfreqarr>=5){
+				if(@LAfreqarr>=1){
 				#the number of SNP in a specific block will be subject to change
 					my $SNPindex=ave(@LAfreqarr)+ave(@Hafreqarr);
 					my $SNPindex2=median(@LAfreqarr)+median(@Hafreqarr);
