@@ -1,4 +1,6 @@
 #!/usr/bin/perl -w
+#author: Lin Li
+#date: 2018-06-16
 #functions: QTG_summarizer
 #input files: VCF file
 #output files: Statistical file
@@ -55,7 +57,7 @@ sub main(){
 				$tmax=$tarr[5];
 				$tmposi=$j;
 				my ($leftcoord,$peakcoord,$rightcoord)=(0,0,0);
-				my $QTGchr;
+				my $QTGchr="";
 				my $m=$j+1;
 				while($m<@temparr){
 					my @ttarr=split(",",trim($temparr[$m]));
@@ -75,7 +77,7 @@ sub main(){
 				#searching the upstream left boundary
 				my $upi=$tmposi-1;
 				my $leftposi=$tmposi;
-				while($upi>=0){
+				while($upi>=1){
 					my @ttarr=split(",",trim($temparr[$upi]));
 					my $iszero=0;
 					my $is0posi=0;
