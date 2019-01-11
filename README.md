@@ -21,7 +21,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 DESCRIPTION: QTG-Seq enables rapid QTL fine-mapping using native 2nd Next Generation Sequence Data derived from the bulked high and low segregant pools. This script essentially uses the results from external alignment programs and performs a series of statistic analyses via a set of specified parameters.
 
-CITATION: QTG-Seq can be cited as: Zhang HW, Wang X, Pan QC, Li P, Li J, Han LQ, Liu YJ, Wang PX, Li DD, Liu Y, Zhang YM, Wang GY, Li L: QTG-seq accelerates QTL fine-mapping through QTL partitioning and whole genome sequencing on bulked segregating samples, 2018.
+CITATION: QTG-Seq can be cited as: Zhang HW, Wang X, Pan QC, Li P, Li J, Han LQ, Liu YJ, Wang PX, Li DD, Liu Y, Zhang YM, Wang GY, Li L: QTG-seq accelerates QTL fine-mapping through QTL partitioning and whole genome sequencing on bulked segregating samples, Molecular Plant, 2018,DOI:https://doi.org/10.1016/j.molp.2018.12.018.
 
 
 2, Prerequisite of external softwares
